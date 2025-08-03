@@ -1,6 +1,0 @@
----
-- name: Configure Apache
-  hosts: all    
-  become: true
-  roles:
-    - apache
