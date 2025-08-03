@@ -1,0 +1,11 @@
+---
+# tasks file for apache
+- name: Install apache
+  apt:
+    name: apache2
+    state: present
+- name: copy files
+  copy: 
+    src: /root//S3bucket/index.html
+    dest: /var/www/html/index.html
+  notify: restart apache
