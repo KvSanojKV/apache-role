@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: apache
   author: Sanoj
   description: Administartor
   company: your company (optional)
